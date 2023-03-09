@@ -16,8 +16,8 @@ pip install baidu-sign
 ```python
 from baidu_sign import baidu_sign
 
-print(baidu_sign("test")
+print(baidu_sign("test"))
 # "431039.159886"
 
 print(baidu_sign("test " * 10))
-# 403909.183028
+# "403909.183028"
